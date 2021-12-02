@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0E0B16;
+    padding: 0 50px;
+}
+
+.header {
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E7DFDD;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    height: 720px;
+    padding: 30px 0;
+}
+
+.screen {
+    display: flex;
+    flex-wrap: wrap;
+    height: 720px;
+    width: 720px;
+    background-color: #E7DFDD;
+    padding: 30px;
+    border-radius: 5px;
+    flex: 2;
+}
+
+.inner-square {
+    flex: 1, 1, auto;
+    border: #0e0b16b7 1px solid;
+}
+
+.small-square {
+    height: 2.083333333%;
+    width: 2.083333333%;
+}
+
+
+.med-square {
+    height: 4.166666667%;
+    width: 4.166666667%;
+}
+
+.large-square {
+    height: 8.333333333%;
+    width: 8.333333333%;
+}
+
+.right-col {
+    flex: 1;
+    width: 300px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #E7DFDD 4px solid;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    width: 130px;
+    padding: 10px 20px;
+    background-color: #E7DFDD;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.selected {
+    color: #4717F6;
+    border-color: #4717F6;
+}
+
+h2 {
+    font-weight: 900;
+    color: #E7DFDD;
+    text-align: center;
+    
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 72px;
+    color: #E7DFDD;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer h3 {
+    font-size: 18px;
+}
+
+img {
+    height: 18px;
+    width: auto;
+}
